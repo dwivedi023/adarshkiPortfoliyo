@@ -605,3 +605,70 @@ transition: .5s ease;
 .testimonial-box .swiper-pagination-bullet-active{
     background: var(--main-color);
 }
+
+.contact h2{
+    margin-bottom: 3rem;
+    align-items: center;
+    text-align: center;
+
+}
+
+.contact form {
+    max-width: 70rem;
+    margin : 1rem auto ;
+     text-align: center;
+     margin-bottom: 3rem;
+}
+
+
+/* Main container to limit width */
+.contact form  .input-container {
+    width: 100%; /* Main container takes 50% of the available width */
+    margin: 0 auto; /* Centers the container */
+}
+
+/* Flexbox for the input boxes */
+.contact form .input-box {
+    display: flex;
+    justify-content: space-between; /* Align items side by side with space between */
+    gap: 5px; /* Adds 5px gap between inputs */
+    margin-bottom: 1rem; /* Adds some space below each input box */
+}
+
+/* Input field styling */
+.input-box input {
+    width: calc(49% - 2.5px); /* Ensures two inputs take 50% width each, accounting for gap */
+    padding: 10px; /* Adds padding inside the input fields */
+    font-size: 1.6rem;
+    color: var(--text-color);
+    margin-bottom:.5rem;
+    padding: 1.5rem;
+    background: var(--bg-color);
+    border-radius: .8rem;
+    margin: .7rem 0 ;
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+}
+
+.contact form textarea{
+    width: 100%;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    margin-bottom:.5rem;
+    padding: 1.5rem;
+    background: var(--bg-color);
+    border-radius: .8rem;
+    margin: .7rem 0 ;
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+}
+.contact form .input-box input{
+    width: 48%;
+    /* grid-area: 2px; */
+}
+.contact form  .textarea-content {
+    resize: none;
+}
+
+.contact form .btn{
+    margin-top: 2rem;
+    cursor: pointer;
+}
